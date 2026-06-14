@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Goswami Samaj: The Complete Heritage Chronicle</title>
+<meta name="description" content="A comprehensive guide to the Goswami Samaj tradition, covering history, the Dashanami order, Saptarishis, Gotra system, all four Mathas, culture and heritage.">
+<style>
+:root {
+  --saffron: #E8660A;
+  --saffron-light: #FFF3E8;
+  --saffron-mid: #F4A048;
+  --gold: #C9960C;
+  --gold-light: #FDF8E8;
+  --brown: #5C3A10;
+  --brown-light: #8B5E2A;
+  --text: #2C1D08;
+  --text-muted: #6B4C28;
+  --text-light: #9C7248;
+  --bg: #FDFAF5;
+  --bg-card: #FFFFFF;
+  --border: #E8D8C0;
+  --border-light: #F0E6D4;
+  --teal: #0A6B5E;
+  --teal-light: #E8F5F3;
+  --maroon: #7A0C2E;
+  --maroon-light: #F8EBF0;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Georgia, 'Times New Roman', serif; background: var(--bg); color: var(--text); line-height: 1.85; font-size: 16px; }
+
+/* HEADER */
+.site-header {
+  background: linear-gradient(135deg, #1A0A02 0%, #3D1C06 45%, #5C2E0A 100%);
+  color: #FDF5E8; text-align: center; padding: 3.5rem 2rem 3rem; position: relative; overflow: hidden;
+}
+.site-header::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+  background: repeating-linear-gradient(45deg, transparent, transparent 40px, rgba(201,150,12,0.04) 40px, rgba(201,150,12,0.04) 80px);
+}
+.header-om { font-size: 3rem; color: var(--saffron-mid); display: block; margin-bottom: .5rem; position: relative; z-index: 1; }
+.header-title { font-size: 2.4rem; font-weight: normal; color: #FDF5E8; letter-spacing: .03em; position: relative; z-index: 1; line-height: 1.3; }
+.header-title span { color: var(--saffron-mid); }
+.header-subtitle { font-size: .98rem; color: #C8AE88; margin-top: .75rem; font-style: italic; position: relative; z-index: 1; }
+.header-divider { margin: 1.25rem auto 0; width: 100px; height: 2px; background: linear-gradient(90deg, transparent, var(--saffron-mid), transparent); position: relative; z-index: 1; }
+.header-names { margin-top: 1rem; font-size: .78rem; color: #9C7560; letter-spacing: .1em; position: relative; z-index: 1; font-family: 'Helvetica Neue', Arial, sans-serif; text-transform: uppercase; }
+
+/* TRANSLATE BAR */
+.translate-bar {
+  background: #2C1D08; border-bottom: 1px solid #4A3010;
+  padding: .45rem 1.5rem; display: flex; align-items: center; gap: .85rem; flex-wrap: wrap;
+}
+.translate-label { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: #C8AE88; }
+.translate-hint { font-size: .7rem; color: #6B4C28; font-family: 'Helvetica Neue', Arial, sans-serif; }
+.goog-te-gadget { font-family: 'Helvetica Neue', Arial, sans-serif !important; font-size: .78rem !important; color: #C8AE88 !important; }
+.goog-te-gadget select { background: #3D1C06; color: #F4D8A8; border: 1px solid #6B4C28; border-radius: 4px; padding: 3px 8px; font-size: .78rem; cursor: pointer; outline: none; }
+.goog-te-gadget select:hover { border-color: #E8660A; }
+.goog-logo-link, .goog-te-gadget > span { display: none !important; }
+.goog-te-banner-frame { display: none !important; }
+body { top: 0 !important; }
+
+/* NAV */
+.top-nav { background: #2C1D08; position: sticky; top: 0; z-index: 100; border-bottom: 2px solid var(--saffron); }
+.nav-inner { display: flex; align-items: center; overflow-x: auto; scrollbar-width: none; max-width: 1200px; margin: 0 auto; }
+.nav-inner::-webkit-scrollbar { display: none; }
+.nav-link { color: #C8AE88; text-decoration: none; padding: .7rem 1rem; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; border-bottom: 2px solid transparent; transition: color .2s, border-color .2s; }
+.nav-link:hover, .nav-link.active { color: var(--saffron-mid); border-bottom-color: var(--saffron-mid); }
+.hamburger { display: none; background: none; border: none; color: #C8AE88; font-size: 1.3rem; cursor: pointer; padding: .7rem 1rem; }
+.mobile-nav { display: none; background: #2C1D08; padding: .4rem; }
+.mobile-nav.open { display: block; }
+.mobile-nav .nav-link { display: block; border-bottom: 1px solid #3D1C06; }
+
+/* LAYOUT */
+.page-wrap { max-width: 1100px; margin: 0 auto; padding: 2.5rem 1.5rem; }
+.section { margin-bottom: 4rem; scroll-margin-top: 56px; }
+.section-header { border-bottom: 2px solid var(--border); padding-bottom: .75rem; margin-bottom: 1.75rem; display: flex; align-items: baseline; gap: .75rem; }
+.section-num { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: .68rem; color: var(--saffron); letter-spacing: .12em; text-transform: uppercase; font-weight: 600; flex-shrink: 0; }
+.section-title { font-size: 1.75rem; font-weight: normal; color: var(--brown); }
+.section-intro { font-size: 1.05rem; color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1.9; }
+h3 { font-size: 1.18rem; font-weight: normal; color: var(--brown); margin: 2rem 0 .75rem; padding-bottom: .35rem; border-bottom: 1px solid var(--border-light); }
+h4 { font-size: .98rem; color: var(--brown-light); margin: 1.25rem 0 .35rem; font-weight: normal; font-style: italic; }
+p { margin-bottom: 1rem; line-height: 1.9; }
+
+/* PULLQUOTE */
+.pullquote { border-left: 4px solid var(--saffron); padding: 1.1rem 1.5rem; margin: 2rem 0; background: var(--saffron-light); border-radius: 0 8px 8px 0; }
+.pullquote p { font-size: 1.1rem; font-style: italic; color: var(--brown); line-height: 1.8; margin: 0; }
+.pullquote cite { display: block; margin-top: .5rem; font-size: .8rem; color: var(--text-light); font-style: normal; letter-spacing: .04em; }
+
+/* CARDS */
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; padding: 1.2rem; }
+.card-accent { border-top: 3px solid var(--saffron); }
+.card-teal { border-top: 3px solid var(--teal); }
+.card-gold { border-top: 3px solid var(--gold); }
+.card-maroon { border-top: 3px solid var(--maroon); }
+.card-label { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: .66rem; letter-spacing: .1em; text-transform: uppercase; color: var(--text-light); margin-bottom: .35rem; }
+.card-name { font-size: 1.05rem; color: var(--brown); margin-bottom: .45rem; }
+.card-body { font-size: .87rem; color: var(--text-muted); line-height: 1.75; }
+.card-tag { display: inline-block; font-size: .7rem; padding: 2px 8px; border-radius: 20px; margin-top: .6rem; font-family: 'Helvetica Neue', Arial, sans-serif; }
+.tag-s { background: var(--saffron-light); color: var(--saffron); border: 1px solid #F4A048; }
+.tag-t { background: var(--teal-light); color: var(--teal); border: 1px solid #0A9E8E; }
+.tag-g { background: var(--gold-light); color: var(--gold); border: 1px solid var(--gold); }
+.tag-m { background: var(--maroon-light); color: var(--maroon); border: 1px solid var(--maroon); }
+
+/* MATH GRID */
+.math-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; margin: 1.5rem 0; }
+.math-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.math-header { padding: .9rem 1.1rem; display: flex; align-items: center; gap: .75rem; position: relative; }
+.math-icon { font-size: 1.5rem; }
+.math-name { font-size: 1rem; color: #FDF5E8; }
+.math-loc { font-size: .76rem; color: rgba(253,245,232,.7); margin-top: 1px; }
+.math-body { padding: .9rem 1.1rem; }
+.math-row { display: flex; padding: .28rem 0; border-bottom: 1px solid var(--border-light); gap: .5rem; }
+.math-row:last-child { border-bottom: none; }
+.math-key { color: var(--text-light); min-width: 95px; flex-shrink: 0; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: .76rem; }
+.math-val { color: var(--text); font-size: .86rem; }
+.math-val em { color: var(--brown); font-style: italic; }
+
+/* TIMELINE */
+.timeline { position: relative; padding-left: 2rem; margin: 1.5rem 0; }
+.timeline::before { content: ''; position: absolute; left: 7px; top: 0; bottom: 0; width: 2px; background: linear-gradient(180deg, var(--saffron), var(--gold), transparent); }
+.tl-item { position: relative; margin-bottom: 1.75rem; }
+.tl-dot { position: absolute; left: -29px; top: 5px; width: 14px; height: 14px; border-radius: 50%; background: var(--saffron); border: 2px solid var(--bg); box-shadow: 0 0 0 1px var(--saffron); }
+.tl-date { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: var(--saffron); margin-bottom: .2rem; }
+.tl-title { font-size: 1rem; color: var(--brown); margin-bottom: .3rem; }
+.tl-body { font-size: .88rem; color: var(--text-muted); line-height: 1.75; }
+
+/* TABLE */
+.table-wrap { overflow-x: auto; margin: 1.5rem 0; border-radius: 10px; border: 1px solid var(--border); }
+table { width: 100%; border-collapse: collapse; font-size: .87rem; }
+thead tr { background: var(--brown); color: #FDF5E8; }
+thead th { padding: .75rem 1rem; text-align: left; font-weight: normal; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: .74rem; letter-spacing: .06em; text-transform: uppercase; }
+tbody tr { border-bottom: 1px solid var(--border-light); }
+tbody tr:last-child { border-bottom: none; }
+tbody tr:nth-child(even) { background: var(--gold-light); }
+tbody td { padding: .6rem 1rem; line-height: 1.6; }
+
+/* INFO BOXES */
+.info-box { background: var(--teal-light); border: 1px solid #B0D8D4; border-left: 4px solid var(--teal); border-radius: 0 8px 8px 0; padding: 1rem 1.25rem; margin: 1.5rem 0; }
+.info-box p { color: #074F45; font-size: .9rem; margin: 0; }
+.gold-box { background: var(--gold-light); border: 1px solid #E8C848; border-radius: 10px; padding: 1.25rem 1.5rem; margin: 1.5rem 0; }
+.gold-box-title { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; color: var(--gold); margin-bottom: .6rem; }
+
+/* RISHI CARDS */
+.rishi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.1rem; margin: 1.5rem 0; }
+.rishi-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; padding: 1.1rem 1.25rem; }
+.rishi-num { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: .64rem; color: var(--saffron); letter-spacing: .1em; text-transform: uppercase; }
+.rishi-name { font-size: 1.12rem; color: var(--brown); margin: .25rem 0 .5rem; }
+.rishi-attr { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .65rem; }
+.rishi-pill { font-size: .7rem; padding: 2px 8px; border-radius: 10px; font-family: 'Helvetica Neue', Arial, sans-serif; background: var(--saffron-light); color: var(--brown); border: 1px solid var(--border); }
+
+/* PROFILE TABLE */
+.profile-table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+.profile-table tr { border-bottom: 1px solid var(--border-light); }
+.profile-table tr:last-child { border-bottom: none; }
+.profile-table td { padding: .55rem .75rem; font-size: .88rem; vertical-align: top; }
+.profile-table td:first-child { color: var(--text-light); font-family: 'Helvetica Neue', Arial, sans-serif; font-size: .76rem; letter-spacing: .03em; width: 35%; text-transform: uppercase; padding-top: .65rem; }
+.profile-table td:last-child { color: var(--text); }
+.profile-table tr:nth-child(even) { background: var(--gold-light); }
+
+/* SANKALPA */
+.sankalpa-box { background: #1A0A02; border-radius: 10px; padding: 1.5rem; margin: 1.5rem 0; border: 1px solid var(--saffron); }
+.sankalpa-label { font-size: .66rem; font-family: 'Helvetica Neue', Arial, sans-serif; letter-spacing: .12em; text-transform: uppercase; color: var(--saffron-mid); margin-bottom: .75rem; }
+.sankalpa-text { font-size: .98rem; color: #F4D8A8; font-style: italic; line-height: 2; }
+.sankalpa-translation { font-size: .8rem; color: #A08060; margin-top: .75rem; line-height: 1.75; }
+
+/* ORDER PROFILES */
+.order-profile { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; margin-bottom: 1.5rem; overflow: hidden; }
+.order-header { padding: 1rem 1.25rem; display: flex; align-items: center; gap: 1rem; }
+.order-num { width: 36px; height: 36px; border-radius: 50%; background: var(--saffron); color: white; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: .82rem; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.order-name { font-size: 1.15rem; color: var(--brown); }
+.order-meaning { font-size: .82rem; color: var(--text-light); font-style: italic; }
+.order-body { padding: 0 1.25rem 1.25rem; }
+.order-body p { font-size: .88rem; color: var(--text-muted); line-height: 1.8; margin-bottom: .5rem; }
+
+/* DEITY GRID */
+.deity-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: .85rem; margin: 1.5rem 0; }
+.deity-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: .85rem; text-align: center; }
+.deity-symbol { font-size: 2rem; display: block; margin-bottom: .4rem; }
+.deity-name { font-size: .9rem; color: var(--brown); }
+.deity-sub { font-size: .74rem; color: var(--text-light); margin-top: .2rem; }
+
+/* SCROLL TOP */
+.scroll-top { position: fixed; bottom: 1.5rem; right: 1.5rem; width: 40px; height: 40px; border-radius: 50%; background: var(--saffron); color: white; border: none; cursor: pointer; font-size: 1.1rem; display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity .3s; z-index: 200; box-shadow: 0 2px 8px rgba(0,0,0,.25); }
+.scroll-top.show { opacity: 1; }
+
+/* FOOTER */
+footer { background: #1A0A02; color: #8B6840; text-align: center; padding: 2.5rem 1.5rem; font-size: .82rem; line-height: 1.9; }
+footer .om { color: var(--saffron-mid); font-size: 1.5rem; display: block; margin-bottom: .5rem; }
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .header-title { font-size: 1.55rem; }
+  .nav-inner { display: none; }
+  .hamburger { display: block; }
+  .math-grid { grid-template-columns: 1fr; }
+  .deity-grid { grid-template-columns: repeat(2, 1fr); }
+  .page-wrap { padding: 1.5rem 1rem; }
+  .section-title { font-size: 1.4rem; }
+}
+@media (max-width: 480px) {
+  .card-grid { grid-template-columns: 1fr; }
+  .rishi-grid { grid-template-columns: 1fr; }
+  .header-title { font-size: 1.3rem; }
+  .deity-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media print {
+  .top-nav, .scroll-top, .hamburger, .mobile-nav, .translate-bar { display: none; }
+  .math-grid { grid-template-columns: repeat(2, 1fr); }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <span class="header-om">&#2384;</span>
+  <h1 class="header-title"><span>Goswami Samaj</span><br>The Complete Heritage Chronicle</h1>
+  <p class="header-subtitle">History, tradition, lineage and culture of the Dashanami Goswami community</p>
+  <div class="header-divider"></div>
+  <p class="header-names">Giri &middot; Puri &middot; Bharati &middot; Vana &middot; Aranya &middot; Sagar &middot; Parvat &middot; Tirtha &middot; Ashram &middot; Saraswati</p>
+</header>
+
+<!-- TRANSLATE BAR -->
+<div class="translate-bar">
+  <span class="translate-label">&#127760; Language</span>
+  <div id="google_translate_element"></div>
+  <span class="translate-hint">Select any language from the dropdown above &nbsp;&bull;&nbsp; For best accuracy read in English &nbsp;&bull;&nbsp; To return to original English refresh the page</span>
+</div>
+
+<!-- NAV -->
+<nav class="top-nav">
+  <div style="display:flex;align-items:center;max-width:1200px;margin:0 auto;">
+    <button class="hamburger" onclick="toggleNav()" aria-label="Menu">&#9776;</button>
+    <div class="nav-inner" id="desktopNav">
+      <a href="#meaning" class="nav-link">The Name</a>
+      <a href="#history" class="nav-link">Origins</a>
+      <a href="#shankara" class="nav-link">Shankaracharya</a>
+      <a href="#dashanami" class="nav-link">Ten Names</a>
+      <a href="#maths" class="nav-link">Four Mathas</a>
+      <a href="#orders" class="nav-link">All Ten Orders</a>
+      <a href="#saptarishis" class="nav-link">Saptarishis</a>
+      <a href="#gotra" class="nav-link">Gotra System</a>
+      <a href="#culture" class="nav-link">Culture</a>
+      <a href="#figures" class="nav-link">Notable Figures</a>
+      <a href="#faq" class="nav-link">Common Questions</a>
+    </div>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#meaning" class="nav-link" onclick="toggleNav()">The Name</a>
+    <a href="#history" class="nav-link" onclick="toggleNav()">Origins</a>
+    <a href="#shankara" class="nav-link" onclick="toggleNav()">Shankaracharya</a>
+    <a href="#dashanami" class="nav-link" onclick="toggleNav()">Ten Names</a>
+    <a href="#maths" class="nav-link" onclick="toggleNav()">Four Mathas</a>
+    <a href="#orders" class="nav-link" onclick="toggleNav()">All Ten Orders</a>
+    <a href="#saptarishis" class="nav-link" onclick="toggleNav()">Saptarishis</a>
+    <a href="#gotra" class="nav-link" onclick="toggleNav()">Gotra System</a>
+    <a href="#culture" class="nav-link" onclick="toggleNav()">Culture</a>
+    <a href="#figures" class="nav-link" onclick="toggleNav()">Notable Figures</a>
+    <a href="#faq" class="nav-link" onclick="toggleNav()">Common Questions</a>
+  </div>
+</nav>
+
+<main class="page-wrap">
+
+<!-- SECTION 1: THE NAME -->
+<section class="section" id="meaning">
+  <div class="section-header">
+    <span class="section-num">01</span>
+    <h2 class="section-title">The Meaning of Goswami</h2>
+  </div>
+
+  <p class="section-intro">Before exploring who the Goswamis are, it is worth pausing at the name itself. Few titles in the Hindu tradition carry as much philosophical weight compressed into two syllables.</p>
+
+  <div class="pullquote">
+    <p>The one who has conquered the senses is the true master of the world. He needs no kingdom, no army, no wealth. His victory is entirely internal and therefore eternal.</p>
+    <cite>Principle underlying the Goswami tradition</cite>
+  </div>
+
+  <p>The word <strong>Goswami</strong> (Sanskrit: गोस्वामी) is formed from two roots. <em>Go</em> carries multiple meanings in Sanskrit, each equally valid: the five senses (Panchendriya), the Vedas (sacred knowledge), a ray of divine light, or simply a cow. <em>Swami</em> means master, lord, or owner. The compound therefore translates as "master of the senses," "lord of Vedic knowledge," or "one guided by the light of sacred wisdom."</p>
+
+  <p>The title has evolved across centuries and appears in regional dialects under several pronunciations. In Bengal and Assam it becomes <em>Gosain</em> or <em>Gossain</em>. Maharashtra renders it as <em>Gosavi</em>. Rajasthan and Uttar Pradesh use <em>Gusain</em>. All of these are the same sacred identity spoken through different tongues.</p>
+
+  <div class="card-grid">
+    <div class="card card-accent">
+      <div class="card-label">Sanskrit Etymology</div>
+      <div class="card-name">Go + Swami</div>
+      <div class="card-body">Go means senses, Vedas, light, or cow. Swami means master. Together: one who has mastered the senses and is guided by sacred knowledge.</div>
+    </div>
+    <div class="card card-teal">
+      <div class="card-label">Regional Variants</div>
+      <div class="card-name">Gosain, Gosavi, Gusain</div>
+      <div class="card-body">Bengal says Gosain, Maharashtra says Gosavi, Rajasthan says Gusain. Different pronunciations of one unbroken tradition stretching back to the 8th century.</div>
+    </div>
+    <div class="card card-gold">
+      <div class="card-label">The Inner Meaning</div>
+      <div class="card-name">Victory Over the Self</div>
+      <div class="card-body">A Goswami is not a political lord or military conqueror. The conquest is entirely internal: over desire, fear, attachment and ego. This is the defining spiritual ideal of the tradition.</div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 2: HISTORY -->
+<section class="section" id="history">
+  <div class="section-header">
+    <span class="section-num">02</span>
+    <h2 class="section-title">Origins and Historical Background</h2>
+  </div>
+
+  <p class="section-intro">The Goswami tradition draws from some of the oldest spiritual currents in Indian civilization. Its roots predate the common era by many centuries, though its institutional form was shaped by one extraordinary man in the 8th century CE.</p>
+
+  <h3>The Ancient Roots of Sannyasa</h3>
+  <p>The ideal of renunciation as the highest human aspiration appears in the earliest layers of Hindu scripture. The Rigveda speaks of the <em>Muni</em>, the silent wandering sage who has stepped beyond society. The Upanishads, composed between 800 and 200 BCE, elevate the path of <em>jnana</em> (knowledge) and <em>vairagya</em> (dispassion) to the summit of spiritual life. The Ashrama system, which placed Sannyasa as the fourth and highest stage of life, was already well established in Vedic culture well before the Dashanami order was founded.</p>
+
+  <p>Long before Shankaracharya formalized the orders, Shaiva ascetics wandered across the entire subcontinent. They carried rudraksha beads, wore ochre robes, smeared themselves with sacred ash and devoted their lives to Lord Shiva as the embodiment of pure consciousness. These wandering monks were the spiritual ancestors of what would become the organized Goswami tradition.</p>
+
+  <h3>The Mythological Precedent: The Four Kumaras</h3>
+  <p>Hindu cosmology traces the ideal of renunciation to the very beginning of creation. When Brahma first created the universe, he produced four sons from his own mind: Sanaka, Sanandana, Sanat-Kumara and Sanat-Sujata. These were the first Sannyasins in cosmic history. They refused Brahma's instruction to enter worldly life and populate the universe. Instead they chose the path of eternal renunciation and meditation, appearing forever as young children yet carrying the wisdom of eternity. This mythological precedent established the principle that the highest human aspiration is not to accumulate but to renounce, not to conquer the world but to conquer the self.</p>
+
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-date">Before 1000 BCE</div>
+      <div class="tl-title">Vedic foundations of Sannyasa</div>
+      <div class="tl-body">The Rigveda and Upanishads establish the ideal of the wandering sage who has transcended worldly life. Shaiva ascetics walk the subcontinent freely.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-date">Circa 200 BCE</div>
+      <div class="tl-title">Formalization of the Ashrama system</div>
+      <div class="tl-body">Brahmin texts systematize the four stages of life, placing Sannyasa as the highest. The philosophical groundwork is laid for organized monastic orders.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-date">2nd to 7th century CE</div>
+      <div class="tl-title">Shaiva ascetics and regional traditions</div>
+      <div class="tl-body">Shaiva monks proliferate across India. The Pashupata, Kapalika and Kalamukha orders establish wandering traditions. Buddhism is at its height and Vedic practice is declining in many regions.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-date">788 CE</div>
+      <div class="tl-title">Birth of Adi Shankaracharya</div>
+      <div class="tl-body">Born in Kaladi, Kerala, Shankaracharya would reshape the entire religious landscape of India in just 32 years of life. He is the architect of the Goswami tradition as it is known today.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-date">810 to 820 CE</div>
+      <div class="tl-title">Establishment of the Four Mathas</div>
+      <div class="tl-body">Shankaracharya founds four great monasteries at the four geographical extremities of India, organizing the Dashanami Sampradaya and assigning the ten names.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-date">820 CE</div>
+      <div class="tl-title">Shankaracharya attains Samadhi at 32</div>
+      <div class="tl-body">Despite his brief life, his philosophical and organizational legacy permanently reshaped Hinduism. His four principal disciples carry the tradition forward.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-date">10th to 15th century CE</div>
+      <div class="tl-title">Transition to householder lineages</div>
+      <div class="tl-body">Many Goswami monks enter domestic life at their Guru's instruction. Their descendants retain the Goswami surname and Brahmin status, forming the householder communities that survive to this day.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-date">Present day</div>
+      <div class="tl-title">A living tradition across South Asia</div>
+      <div class="tl-body">Goswami communities thrive across India, Nepal and Bangladesh, both as active Sannyasi monks and as Brahmin householder families carrying their heritage forward.</div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 3: SHANKARACHARYA -->
+<section class="section" id="shankara">
+  <div class="section-header">
+    <span class="section-num">03</span>
+    <h2 class="section-title">Adi Shankaracharya: The Architect</h2>
+  </div>
+
+  <p class="section-intro">To understand the Goswami tradition is to understand this one extraordinary figure. He lived only 32 years yet walked every corner of the Indian subcontinent, debated the greatest scholars of his age and rebuilt a crumbling spiritual edifice from the ground up.</p>
+
+  <div class="pullquote">
+    <p>He arrived as a child, debated as a sage, built like a statesman and departed like a god. In the brief arc of his life, he turned the tide of an entire civilization.</p>
+    <cite>On the life of Adi Shankaracharya</cite>
+  </div>
+
+  <h3>Early Life and Renunciation</h3>
+  <p>Shankaracharya was born in 788 CE in the village of Kaladi on the banks of the Periyar river in modern Kerala. His father Sivaguru and mother Aryamba were devout Brahmins. According to tradition, Lord Shiva appeared to Aryamba in a dream and offered her a choice: one brilliant but short-lived son, or many ordinary sons. She chose the singular.</p>
+
+  <p>From infancy, Shankaracharya displayed extraordinary intelligence, mastering the four Vedas by the age of eight. He sought Sannyasa at that age, which his mother refused. The tradition records that while bathing in a river, a crocodile seized his leg. He called out to his mother to grant him Sannyasa in his final moments. She consented. The crocodile released him. He took Sannyasa that day.</p>
+
+  <h3>The Walking Philosopher</h3>
+  <p>What followed was one of the most remarkable intellectual journeys in human history. Shankaracharya walked across India engaging in formal philosophical debates with leading scholars of Shaivism, Vaishnavism, Buddhism, Jainism, Mimamsa and Sankhya. He wrote profound commentaries on the Brahmasutras, the Bhagavad Gita and the principal Upanishads, all arguing for the philosophy of <em>Advaita Vedanta</em>: the non-dual understanding that the individual self (Atman) and the universal spirit (Brahman) are ultimately one and the same reality.</p>
+
+  <p>He was not merely a debater. He composed deeply devotional hymns reconciling the sectarian divisions of his time under the umbrella of Advaita. His Bhaja Govindam remains one of the most recited Sanskrit compositions in devotional Hinduism. His Vivekachudamani (Crest Jewel of Discrimination) is foundational to Advaita philosophy.</p>
+
+  <h3>The Four Mahavakyas: Distilled Wisdom</h3>
+  <p>Shankaracharya assigned one great saying from the Upanishads to each of the four Mathas. These Mahavakyas (great sayings) are the philosophical essence of Advaita Vedanta in its most concentrated form.</p>
+
+  <div class="card-grid">
+    <div class="card">
+      <div class="card-label">Jyotirmath (North)</div>
+      <div class="card-name">Ayam Atma Brahma</div>
+      <div class="card-body">Mandukya Upanishad, Atharvaveda. "This Self is Brahman." The self one experiences right now, stripped of all conditions, is the infinite itself.</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Shringeri Math (South)</div>
+      <div class="card-name">Aham Brahmasmi</div>
+      <div class="card-body">Brihadaranyaka Upanishad, Yajurveda. "I am Brahman." The direct declaration of the individual's identity with the universal.</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Dwarka Math (West)</div>
+      <div class="card-name">Tattvamasi</div>
+      <div class="card-body">Chandogya Upanishad, Samaveda. "That thou art." The teacher's declaration to the student: you already are what you seek.</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Govardhan Math (East)</div>
+      <div class="card-name">Prajnanam Brahma</div>
+      <div class="card-body">Aitareya Upanishad, Rigveda. "Consciousness is Brahman." The cosmic principle itself is pure awareness.</div>
+    </div>
+  </div>
+
+  <h3>The Four Principal Disciples</h3>
+  <p>Shankaracharya appointed four disciples to lead the four Mathas. Each received specific philosophical texts, Vedic branches, deities and community responsibilities.</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Disciple</th><th>Math Assigned</th><th>Location</th><th>Notable quality</th></tr></thead>
+      <tbody>
+        <tr><td>Totakacharya</td><td>Jyotirmath</td><td>Badrikashram, North</td><td>Absolute devotion; chosen for transparency of heart over intellectual brilliance</td></tr>
+        <tr><td>Suresvaracharya</td><td>Shringeri Math</td><td>Karnataka, South</td><td>Foremost philosopher; wrote major independent Advaita treatises</td></tr>
+        <tr><td>Hastamalaka</td><td>Dwarka Math</td><td>Gujarat, West</td><td>Realized from childhood; gave Shankaracharya his name (Hastamalaka means "clear as a gooseberry in the palm")</td></tr>
+        <tr><td>Padmapada</td><td>Govardhan Math</td><td>Puri, East</td><td>Devoted beyond measure; said to have walked on water to reach his Guru</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- SECTION 4: DASHANAMI -->
+<section class="section" id="dashanami">
+  <div class="section-header">
+    <span class="section-num">04</span>
+    <h2 class="section-title">The Dashanami Sampradaya: Ten Names, One Tradition</h2>
+  </div>
+
+  <p class="section-intro">Dashanami means "ten names." Shankaracharya organized all monks and their householder descendants into ten sub-orders, each bearing a distinct name and assigned to a specific Math. These are not competing sects but organizational branches of a single unified tradition.</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Name</th><th>Meaning</th><th>Math</th><th>Gotra</th><th>Veda</th><th>Primary Region</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Giri</strong></td><td>Mountain</td><td>Jyotirmath</td><td>Bhrigu</td><td>Atharvaveda</td><td>Uttarakhand, North India</td></tr>
+        <tr><td><strong>Parvat</strong></td><td>Hill</td><td>Jyotirmath</td><td>Bhrigu</td><td>Atharvaveda</td><td>Himalayan regions</td></tr>
+        <tr><td><strong>Sagar</strong></td><td>Ocean</td><td>Jyotirmath</td><td>Bhrigu</td><td>Atharvaveda</td><td>Central and North India</td></tr>
+        <tr><td><strong>Saraswati</strong></td><td>Flowing river of wisdom</td><td>Shringeri</td><td>Bhaveshwar</td><td>Yajurveda</td><td>South India, Karnataka</td></tr>
+        <tr><td><strong>Puri</strong></td><td>Complete in oneself</td><td>Shringeri</td><td>Bhaveshwar</td><td>Yajurveda</td><td>Maharashtra, Bengal, Gujarat</td></tr>
+        <tr><td><strong>Bharati</strong></td><td>Of the sacred land of Bharat</td><td>Shringeri</td><td>Bhaveshwar</td><td>Yajurveda</td><td>South India, Tamil Nadu</td></tr>
+        <tr><td><strong>Vana</strong></td><td>Forest</td><td>Govardhan</td><td>Kashyapa</td><td>Rigveda</td><td>Odisha, Eastern India</td></tr>
+        <tr><td><strong>Aranya</strong></td><td>Wilderness</td><td>Govardhan</td><td>Kashyapa</td><td>Rigveda</td><td>Bengal, Assam</td></tr>
+        <tr><td><strong>Tirtha</strong></td><td>Sacred crossing place</td><td>Dwarka</td><td>Adhigata</td><td>Samaveda</td><td>Gujarat, Rajasthan</td></tr>
+        <tr><td><strong>Ashram</strong></td><td>Stage of life, place of refuge</td><td>Dwarka</td><td>Adhigata</td><td>Samaveda</td><td>Western India</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Sannyasi and Householder Goswamis</h3>
+  <div class="card-grid">
+    <div class="card card-teal">
+      <div class="card-label">Sannyasi Goswami</div>
+      <div class="card-name">The Renunciant Monk</div>
+      <div class="card-body">Takes formal vows of celibacy and non-possession. Wears ochre robes. May carry a danda (staff) if from a Dandi lineage. Lives in monasteries or wanders as an itinerant. Discards birth name and surname entirely upon initiation. The Dashanami name becomes the sole identity.</div>
+      <span class="card-tag tag-t">Sanyasi</span>
+    </div>
+    <div class="card card-accent">
+      <div class="card-label">Gharbari Goswami</div>
+      <div class="card-name">The Brahmin Householder</div>
+      <div class="card-body">Descendants of monks who entered domestic life at their Guru's instruction. Retain Goswami as a hereditary surname. Maintain full Brahmin status. Carry the institutional gotra of their Math lineage. Perform Shaiva rituals, Rudrabhishek and temple service within their communities.</div>
+      <span class="card-tag tag-s">Householder</span>
+    </div>
+  </div>
+
+  <h3>The Akhada System</h3>
+  <p>The Dashanami monks are organized into Akhadas, institutional bodies that manage participation in events like the Kumbh Mela. The principal Dashanami Akhadas are Niranjani Akhada and Juna Akhada, headquartered in Prayagraj and Haridwar. During the Kumbh Mela, the Shahi Snan (royal bath), where monks march in grand procession to take the sacred bath at the most auspicious moment, is one of the most spectacular religious events on earth. Dashanami Akhadas take precedence in the procession by centuries-old convention.</p>
+</section>
+
+<!-- SECTION 5: FOUR MATHAS -->
+<section class="section" id="maths">
+  <div class="section-header">
+    <span class="section-num">05</span>
+    <h2 class="section-title">The Four Sacred Mathas</h2>
+  </div>
+
+  <p class="section-intro">The four Mathas represent the four pillars of the Dashanami tradition. Positioned at the extreme north, south, east and west of the Indian subcontinent, they were designed to create a unified spiritual geography for all of India. Each is a living institution continuing today under an unbroken line of succession.</p>
+
+  <div class="math-grid">
+    <div class="math-card">
+      <div class="math-header" style="background:linear-gradient(135deg,#3D1C06,#1A0A02);">
+        <div class="math-icon">&#127956;</div>
+        <div><div class="math-name">Jyotirmath</div><div class="math-loc">Badrikashram, Uttarakhand (North)</div></div>
+      </div>
+      <div class="math-body">
+        <div class="math-row"><span class="math-key">Orders</span><span class="math-val"><em>Giri, Parvat, Sagar</em></span></div>
+        <div class="math-row"><span class="math-key">Gotra</span><span class="math-val">Bhrigu</span></div>
+        <div class="math-row"><span class="math-key">Veda</span><span class="math-val">Atharvaveda</span></div>
+        <div class="math-row"><span class="math-key">Upanishad</span><span class="math-val">Mandukya</span></div>
+        <div class="math-row"><span class="math-key">Mahavakya</span><span class="math-val">Ayam Atma Brahma</span></div>
+        <div class="math-row"><span class="math-key">Deity</span><span class="math-val">Lord Narayana</span></div>
+        <div class="math-row"><span class="math-key">Goddess</span><span class="math-val">Punyagiri</span></div>
+        <div class="math-row"><span class="math-key">Sacred River</span><span class="math-val">Alakananda</span></div>
+        <div class="math-row"><span class="math-key">First Acharya</span><span class="math-val">Totakacharya</span></div>
+        <div class="math-row"><span class="math-key">Sampradaya</span><span class="math-val">Anandavar</span></div>
+      </div>
+    </div>
+    <div class="math-card">
+      <div class="math-header" style="background:linear-gradient(135deg,#0A4A40,#073530);">
+        <div class="math-icon">&#127756;</div>
+        <div><div class="math-name">Shringeri Math</div><div class="math-loc">Karnataka (South)</div></div>
+      </div>
+      <div class="math-body">
+        <div class="math-row"><span class="math-key">Orders</span><span class="math-val"><em>Saraswati, Puri, Bharati</em></span></div>
+        <div class="math-row"><span class="math-key">Gotra</span><span class="math-val">Bhaveshwar</span></div>
+        <div class="math-row"><span class="math-key">Veda</span><span class="math-val">Yajurveda</span></div>
+        <div class="math-row"><span class="math-key">Upanishad</span><span class="math-val">Brihadaranyaka</span></div>
+        <div class="math-row"><span class="math-key">Mahavakya</span><span class="math-val">Aham Brahmasmi</span></div>
+        <div class="math-row"><span class="math-key">Deity</span><span class="math-val">Adi Varaha</span></div>
+        <div class="math-row"><span class="math-key">Goddess</span><span class="math-val">Kamakshi / Sharada</span></div>
+        <div class="math-row"><span class="math-key">Sacred River</span><span class="math-val">Tungabhadra</span></div>
+        <div class="math-row"><span class="math-key">First Acharya</span><span class="math-val">Suresvaracharya</span></div>
+        <div class="math-row"><span class="math-key">Sampradaya</span><span class="math-val">Bhurivara</span></div>
+      </div>
+    </div>
+    <div class="math-card">
+      <div class="math-header" style="background:linear-gradient(135deg,#4A3010,#2C1A06);">
+        <div class="math-icon">&#127754;</div>
+        <div><div class="math-name">Govardhan Math</div><div class="math-loc">Puri, Odisha (East)</div></div>
+      </div>
+      <div class="math-body">
+        <div class="math-row"><span class="math-key">Orders</span><span class="math-val"><em>Vana, Aranya</em></span></div>
+        <div class="math-row"><span class="math-key">Gotra</span><span class="math-val">Kashyapa</span></div>
+        <div class="math-row"><span class="math-key">Veda</span><span class="math-val">Rigveda</span></div>
+        <div class="math-row"><span class="math-key">Upanishad</span><span class="math-val">Aitareya</span></div>
+        <div class="math-row"><span class="math-key">Mahavakya</span><span class="math-val">Prajnanam Brahma</span></div>
+        <div class="math-row"><span class="math-key">Deity</span><span class="math-val">Lord Jagannatha</span></div>
+        <div class="math-row"><span class="math-key">Goddess</span><span class="math-val">Vimala Devi</span></div>
+        <div class="math-row"><span class="math-key">Sacred River</span><span class="math-val">Mahodadhi (Bay of Bengal)</span></div>
+        <div class="math-row"><span class="math-key">First Acharya</span><span class="math-val">Padmapada</span></div>
+        <div class="math-row"><span class="math-key">Sampradaya</span><span class="math-val">Bhogavar</span></div>
+      </div>
+    </div>
+    <div class="math-card">
+      <div class="math-header" style="background:linear-gradient(135deg,#1A1A4A,#0E0E2C);">
+        <div class="math-icon">&#128024;</div>
+        <div><div class="math-name">Dwarka Math</div><div class="math-loc">Dwarka, Gujarat (West)</div></div>
+      </div>
+      <div class="math-body">
+        <div class="math-row"><span class="math-key">Orders</span><span class="math-val"><em>Tirtha, Ashram</em></span></div>
+        <div class="math-row"><span class="math-key">Gotra</span><span class="math-val">Adhigata / Avigata</span></div>
+        <div class="math-row"><span class="math-key">Veda</span><span class="math-val">Samaveda</span></div>
+        <div class="math-row"><span class="math-key">Upanishad</span><span class="math-val">Chandogya</span></div>
+        <div class="math-row"><span class="math-key">Mahavakya</span><span class="math-val">Tattvamasi</span></div>
+        <div class="math-row"><span class="math-key">Deity</span><span class="math-val">Siddheshwara</span></div>
+        <div class="math-row"><span class="math-key">Goddess</span><span class="math-val">Bhadrakali</span></div>
+        <div class="math-row"><span class="math-key">Sacred River</span><span class="math-val">Gomati</span></div>
+        <div class="math-row"><span class="math-key">First Acharya</span><span class="math-val">Hastamalaka</span></div>
+        <div class="math-row"><span class="math-key">Sampradaya</span><span class="math-val">Keeravara</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 6: ALL TEN ORDERS -->
+<section class="section" id="orders">
+  <div class="section-header">
+    <span class="section-num">06</span>
+    <h2 class="section-title">Profiles of All Ten Dashanami Orders</h2>
+  </div>
+
+  <p class="section-intro">Each of the ten orders carries a distinct name, symbolism, Math affiliation and traditional area of influence. Together they form the complete institutional map of the Goswami tradition across India.</p>
+
+  <div class="order-profile">
+    <div class="order-header">
+      <div class="order-num">01</div>
+      <div><div class="order-name">Giri</div><div class="order-meaning">Mountain: steadfast, elevated, immovable</div></div>
+    </div>
+    <div class="order-body">
+      <table class="profile-table">
+        <tr><td>Math</td><td>Jyotirmath, Badrikashram, Uttarakhand</td></tr>
+        <tr><td>Gotra</td><td>Bhrigu</td></tr>
+        <tr><td>Pravara</td><td>Bhargava, Chyavana, Aptavana</td></tr>
+        <tr><td>Veda</td><td>Atharvaveda</td></tr>
+        <tr><td>Deity</td><td>Narayana / Lord Shiva</td></tr>
+        <tr><td>Goddess</td><td>Punyagiri</td></tr>
+        <tr><td>Mahavakya</td><td>Ayam Atma Brahma (This Self is Brahman)</td></tr>
+        <tr><td>Sacred river</td><td>Alakananda</td></tr>
+        <tr><td>Region</td><td>Uttarakhand, Himachal Pradesh, North India</td></tr>
+      </table>
+      <p>The name Giri means mountain in Sanskrit. The symbolism is deliberate: as a mountain stands immovable through all seasons and ages, rising above the clouds, so the Giri monk is expected to remain unmoved through all the upheavals of the mind. Giri Goswamis trace their institutional lineage to Jyotirmath near Badrinath, situated in the high Himalayas at approximately 1,890 metres. This is the winter residence of the Badrinath deity when snowfall closes the main temple each year. The Giri order has historically provided priests and Mahants for Shaiva temples across the Himalayan belt.</p>
+      <p>The Sankalpa declaration for a Giri Goswami follows the form: <em>Bhrigu gotrasya, Bhargava-Chyavana-Aptavana trayo risheyam pravarānvitasya, Atharvaveda adhyayinah...</em></p>
+    </div>
+  </div>
+
+  <div class="order-profile">
+    <div class="order-header">
+      <div class="order-num">02</div>
+      <div><div class="order-name">Parvat</div><div class="order-meaning">Hill: elevated spiritual station</div></div>
+    </div>
+    <div class="order-body">
+      <table class="profile-table">
+        <tr><td>Math</td><td>Jyotirmath, Badrikashram, Uttarakhand</td></tr>
+        <tr><td>Gotra</td><td>Bhrigu</td></tr>
+        <tr><td>Veda</td><td>Atharvaveda</td></tr>
+        <tr><td>Deity</td><td>Narayana / Lord Shiva</td></tr>
+        <tr><td>Mahavakya</td><td>Ayam Atma Brahma</td></tr>
+        <tr><td>Region</td><td>North India, Himalayan and hill regions</td></tr>
+      </table>
+      <p>Parvat shares the Jyotirmath lineage with Giri and Sagar. The name means hill or mountain peak and carries similar symbolism of elevation and rootedness. Parvat Goswamis have traditionally served in the hill regions of North India, maintaining Shaiva shrines across the foothills of the Himalayas. The order shares the Bhrigu gotra and Atharvaveda affiliation with the Giri and Sagar branches.</p>
+    </div>
+  </div>
+
+  <div class="order-profile">
+    <div class="order-header">
+      <div class="order-num">03</div>
+      <div><div class="order-name">Sagar</div><div class="order-meaning">Ocean: vast, deep, boundless</div></div>
+    </div>
+    <div class="order-body">
+      <table class="profile-table">
+        <tr><td>Math</td><td>Jyotirmath, Badrikashram, Uttarakhand</td></tr>
+        <tr><td>Gotra</td><td>Bhrigu</td></tr>
+        <tr><td>Veda</td><td>Atharvaveda</td></tr>
+        <tr><td>Deity</td><td>Narayana / Lord Shiva</td></tr>
+        <tr><td>Mahavakya</td><td>Ayam Atma Brahma</td></tr>
+        <tr><td>Region</td><td>Central India, Madhya Pradesh, North India</td></tr>
+      </table>
+      <p>Sagar means ocean in Sanskrit. The symbolism points toward the qualities of depth, calm, vastness and the capacity to absorb all rivers without overflowing. A Sagar Goswami is ideally one whose consciousness has the depth and equanimity of the ocean. The Sagar order is the third branch sharing the Jyotirmath institutional affiliation and is notably prevalent in central India.</p>
+    </div>
+  </div>
+
+  <div class="order-profile">
+    <div class="order-header">
+      <div class="order-num">04</div>
+      <div><div class="order-name">Saraswati</div><div class="order-meaning">Flowing river of wisdom and learning</div></div>
+    </div>
+    <div class="order-body">
+      <table class="profile-table">
+        <tr><td>Math</td><td>Shringeri Math, Karnataka</td></tr>
+        <tr><td>Gotra</td><td>Bhaveshwar</td></tr>
+        <tr><td>Veda</td><td>Yajurveda</td></tr>
+        <tr><td>Deity</td><td>Adi Varaha / Lord Shiva</td></tr>
+        <tr><td>Goddess</td><td>Kamakshi / Sharada</td></tr>
+        <tr><td>Mahavakya</td><td>Aham Brahmasmi (I am Brahman)</td></tr>
+        <tr><td>Sacred river</td><td>Tungabhadra</td></tr>
+        <tr><td>Region</td><td>Karnataka, South India</td></tr>
+      </table>
+      <p>Named after the goddess of wisdom and learning, Saraswati Goswamis belong to the Shringeri Math lineage established by Suresvaracharya. The Saraswati order has historically produced some of the most learned Vedantic scholars and commentators within the Goswami tradition. The Shringeri Math in Karnataka remains one of the most active and influential of the four Mathas today. Saraswati Goswamis are concentrated in South India, particularly Karnataka and Tamil Nadu.</p>
+    </div>
+  </div>
+
+  <div class="order-profile">
+    <div class="order-header">
+      <div class="order-num">05</div>
+      <div><div class="order-name">Puri</div><div class="order-meaning">City: complete, self-contained, whole</div></div>
+    </div>
+    <div class="order-body">
+      <table class="profile-table">
+        <tr><td>Math</td><td>Shringeri Math, Karnataka</td></tr>
+        <tr><td>Gotra</td><td>Bhaveshwar</td></tr>
+        <tr><td>Veda</td><td>Yajurveda</td></tr>
+        <tr><td>Deity</td><td>Adi Varaha / Lord Shiva</td></tr>
+        <tr><td>Mahavakya</td><td>Aham Brahmasmi</td></tr>
+        <tr><td>Region</td><td>Maharashtra, Bengal, Gujarat, South India</td></tr>
+      </table>
+      <p>Puri means city or town in Sanskrit, but in the monastic context it carries the sense of completeness and self-sufficiency. Puri Goswamis are among the most widely distributed of all ten orders, found across Maharashtra, Bengal, Gujarat and parts of South India. Several of the most respected Shankaracharyas in modern history have carried the Puri title, including Swami Chandrashekharendra Saraswati of Kanchi Kamakoti Peetham who is widely known as the Kanchi Paramacharya and is revered as a saint.</p>
+    </div>
+  </div>
+
+  <div class="order-profile">
+    <div class="order-header">
+      <div class="order-num">06</div>
+      <div><div class="order-name">Bharati</div><div class="order-meaning">Of the sacred land of Bharat</div></div>
+    </div>
+    <div class="order-body">
+      <table class="profile-table">
+        <tr><td>Math</td><td>Shringeri Math, Karnataka</td></tr>
+        <tr><td>Gotra</td><td>Bhaveshwar</td></tr>
+        <tr><td>Veda</td><td>Yajurveda</td></tr>
+        <tr><td>Deity</td><td>Adi Varaha / Lord Shiva</td></tr>
+        <tr><td>Mahavakya</td><td>Aham Brahmasmi</td></tr>
+        <tr><td>Region</td><td>South India, Tamil Nadu, Andhra Pradesh</td></tr>
+      </table>
+      <p>Bharati literally means one who belongs to Bharat, the sacred land. It carries the added meaning of Saraswati (the goddess is sometimes addressed as Bharati) and thus implies one devoted to the Vedic tradition of the entire subcontinent. Bharati Goswamis share the Shringeri affiliation and are found predominantly in South India. Swami Vivekananda's Guru, Ramakrishna Paramahamsa, while himself a Vaishnava, influenced many who later took Sannyasa within the Bharati order.</p>
+    </div>
+  </div>
+
+  <div class="order-profile">
+    <div class="order-header">
+      <div class="order-num">07</div>
+      <div><div class="order-name">Vana</div><div class="order-meaning">Forest: dwelling in natural solitude</div></div>
+    </div>
+    <div class="order-body">
+      <table class="profile-table">
+        <tr><td>Math</td><td>Govardhan Math, Puri, Odisha</td></tr>
+        <tr><td>Gotra</td><td>Kashyapa</td></tr>
+        <tr><td>Veda</td><td>Rigveda</td></tr>
+        <tr><td>Deity</td><td>Lord Jagannatha</td></tr>
+        <tr><td>Goddess</td><td>Vimala Devi</td></tr>
+        <tr><td>Mahavakya</td><td>Prajnanam Brahma (Consciousness is Brahman)</td></tr>
+        <tr><td>Sacred river</td><td>Mahodadhi (Bay of Bengal)</td></tr>
+        <tr><td>Region</td><td>Odisha, Eastern India</td></tr>
+      </table>
+      <p>Vana means forest and points to the ancient tradition of forest-dwelling ascetics who sought solitude among trees. The Vana order belongs to the Govardhan Math in Puri, one of the holiest cities in India and the home of the famous Jagannatha Temple. Vana Goswamis carry the Kashyapa gotra, tracing their institutional lineage to the most prolific of the Saptarishis, the sage from whose unions with multiple wives came all living beings.</p>
+    </div>
+  </div>
+
+  <div class="order-profile">
+    <div class="order-header">
+      <div class="order-num">08</div>
+      <div><div class="order-name">Aranya</div><div class="order-meaning">Wilderness: beyond the habited world</div></div>
+    </div>
+    <div class="order-body">
+      <table class="profile-table">
+        <tr><td>Math</td><td>Govardhan Math, Puri, Odisha</td></tr>
+        <tr><td>Gotra</td><td>Kashyapa</td></tr>
+        <tr><td>Veda</td><td>Rigveda</td></tr>
+        <tr><td>Deity</td><td>Lord Jagannatha</td></tr>
+        <tr><td>Mahavakya</td><td>Prajnanam Brahma</td></tr>
+        <tr><td>Region</td><td>Bengal, Assam, Odisha, North-East India</td></tr>
+      </table>
+      <p>Aranya means wilderness or forest beyond the village boundary. The Aranya monks historically dwelt in the deepest forests, far from towns and human settlement, dedicated entirely to austerity and meditation. The order shares the Govardhan Math affiliation with the Vana order and is particularly represented in Bengal and Assam. Swami Vivekananda, one of the most internationally recognized figures to emerge from the broader Goswami tradition, was initiated into the Aranya order.</p>
+    </div>
+  </div>
+
+  <div class="order-profile">
+    <div class="order-header">
+      <div class="order-num">09</div>
+      <div><div class="order-name">Tirtha</div><div class="order-meaning">Sacred crossing place; pilgrimage ford</div></div>
+    </div>
+    <div class="order-body">
+      <table class="profile-table">
+        <tr><td>Math</td><td>Dwarka Math, Gujarat</td></tr>
+        <tr><td>Gotra</td><td>Adhigata / Avigata</td></tr>
+        <tr><td>Veda</td><td>Samaveda</td></tr>
+        <tr><td>Deity</td><td>Siddheshwara</td></tr>
+        <tr><td>Goddess</td><td>Bhadrakali</td></tr>
+        <tr><td>Mahavakya</td><td>Tattvamasi (That thou art)</td></tr>
+        <tr><td>Sacred river</td><td>Gomati</td></tr>
+        <tr><td>Region</td><td>Gujarat, Rajasthan, Western India</td></tr>
+      </table>
+      <p>Tirtha means a sacred ford or crossing place, the point on a river bank where pilgrims cross from the ordinary world into the sacred. In a deeper sense it refers to the monk as a living tirtha: someone whose very presence creates a crossing point between the ordinary and the divine. Tirtha Goswamis belong to the Dwarka Math lineage and are concentrated in Gujarat and Rajasthan. The Dwarka Math presides over one of the four Char Dham pilgrimage sites.</p>
+    </div>
+  </div>
+
+  <div class="order-profile">
+    <div class="order-header">
+      <div class="order-num">10</div>
+      <div><div class="order-name">Ashram</div><div class="order-meaning">Stage of life; place of spiritual refuge</div></div>
+    </div>
+    <div class="order-body">
+      <table class="profile-table">
+        <tr><td>Math</td><td>Dwarka Math, Gujarat</td></tr>
+        <tr><td>Gotra</td><td>Adhigata / Avigata</td></tr>
+        <tr><td>Veda</td><td>Samaveda</td></tr>
+        <tr><td>Deity</td><td>Siddheshwara</td></tr>
+        <tr><td>Mahavakya</td><td>Tattvamasi</td></tr>
+        <tr><td>Region</td><td>Western India, Gujarat</td></tr>
+      </table>
+      <p>Ashram refers both to the four stages of Hindu life (Brahmacharya, Grihastha, Vanaprastha, Sannyasa) and to a place of spiritual practice and refuge. An Ashram Goswami thus embodies all four stages in one, having passed through them all to reach the final liberation of Sannyasa. The Ashram order shares the Dwarka Math affiliation with Tirtha and is found primarily in western India.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 7: SAPTARISHIS -->
+<section class="section" id="saptarishis">
+  <div class="section-header">
+    <span class="section-num">07</span>
+    <h2 class="section-title">The Saptarishis: Seven Root Sages of All Hindu Lineages</h2>
+  </div>
+
+  <p class="section-intro">Every Hindu gotra traces back to one of these seven primordial sages. They are not merely historical figures but cosmic archetypes, the channels through whom Vedic knowledge descended from the infinite into the finite world of human speech and understanding.</p>
+
+  <p>The word Saptarishi (Sapta = seven, Rishi = sage) refers to the seven great seers said to appear in every cosmic cycle (Manvantara). Created directly from the mind or body of Brahma the Creator, they are called <em>Manasaputras</em> (mind-born sons). They authored or transmitted the Vedas, established the gotra system and set the patterns of knowledge that Hindu civilization has followed for millennia.</p>
+
+  <div class="rishi-grid">
+    <div class="rishi-card" style="border-top:3px solid var(--saffron);">
+      <div class="rishi-num">01 / Saptarishi</div>
+      <div class="rishi-name">Bhrigu</div>
+      <p style="font-size:.87rem;color:var(--text-muted);margin:.5rem 0 .6rem;line-height:1.78;">Born from the base of Brahma's sacrificial fire. One of the most powerful and intellectually bold of the sages. He tested Vishnu by kicking him on the chest (the seat of Lakshmi), and Vishnu responded with patience, an episode that became the philosophical basis for claims of Vishnu's supreme grace. Author of the Bhrigu Samhita, an extraordinary astrological treatise said to contain the destiny of all souls.</p>
+      <p style="font-size:.87rem;color:var(--text-muted);margin:.5rem 0 .6rem;line-height:1.78;"><strong style="color:var(--brown);font-weight:normal;">Key descendants:</strong> Jamadagni (son), Shukracharya (guru of the Asuras, master of the Sanjeevani Vidya), Chyavana Rishi (for whom Chyawanprash is named), Parashurama (sixth avatar of Vishnu, the warrior-sage who destroyed corrupt Kshatriyas twenty-one times).</p>
+      <div class="rishi-attr">
+        <span class="rishi-pill">Gotra: Bhrigu</span>
+        <span class="rishi-pill">Jyotirmath</span>
+        <span class="rishi-pill" style="background:var(--saffron-light);border-color:var(--saffron);color:var(--brown);">Giri, Parvat, Sagar lineage</span>
+      </div>
+    </div>
+
+    <div class="rishi-card" style="border-top:3px solid var(--teal);">
+      <div class="rishi-num">02 / Saptarishi</div>
+      <div class="rishi-name">Atri</div>
+      <p style="font-size:.87rem;color:var(--text-muted);margin:.5rem 0 .6rem;line-height:1.78;">Born from the eyes or sacred flame of Brahma. Among the most beloved of the Saptarishis. His wife Anusuya (literally "without envy") is one of the five ideal women (Panchakanya) in Hindu tradition, famed for her absolute chastity. When the divine Trinity (Brahma, Vishnu, Shiva) tested her devotion, she transformed them into infants, an act of such spiritual power that they remained in her care until she was satisfied.</p>
+      <p style="font-size:.87rem;color:var(--text-muted);margin:.5rem 0 .6rem;line-height:1.78;"><strong style="color:var(--brown);font-weight:normal;">Key descendants:</strong> Dattatreya (avatar combining Brahma, Vishnu and Shiva in one form), Chandra or Soma (Moon god, ancestor of the entire Lunar dynasty including the Pandavas), Durvasa (sage of terrible curses). Sage Atreya, who founded a famous school of Ayurveda and whose disciples wrote the Charaka Samhita, is a descendant of Atri. The Atri and Atreya gotras are therefore related but distinct.</p>
+      <div class="rishi-attr">
+        <span class="rishi-pill">Gotra: Atri</span>
+        <span class="rishi-pill">Rigveda Mandala 5</span>
+        <span class="rishi-pill">Ancestor of Lunar dynasty</span>
+      </div>
+    </div>
+
+    <div class="rishi-card" style="border-top:3px solid var(--gold);">
+      <div class="rishi-num">03 / Saptarishi</div>
+      <div class="rishi-name">Vasishtha</div>
+      <p style="font-size:.87rem;color:var(--text-muted);margin:.5rem 0 .6rem;line-height:1.78;">Born from Brahma's Prana (life breath). The royal preceptor (Rajaguru) of the Solar dynasty across multiple generations. He was the Guru of Lord Rama himself. He possessed the divine cow Kamadhenu and her daughter Nandini, whose miraculous milk could fulfill any wish. His famous centuries-long rivalry with Vishwamitra is one of the great epics of Vedic literature, a collision between brahminical power and Kshatriya will.</p>
+      <p style="font-size:.87rem;color:var(--text-muted);margin:.5rem 0 .6rem;line-height:1.78;"><strong style="color:var(--brown);font-weight:normal;">Key descendants:</strong> Shakti (son), Parashara (grandson), Vyasa (great-grandson, the compiler of the Vedas and author of the Mahabharata). The Yoga Vasishtha, one of the foundational texts of Advaita Vedanta, is composed as a dialogue between Vasishtha and Rama.</p>
+      <div class="rishi-attr">
+        <span class="rishi-pill">Gotra: Vasishtha</span>
+        <span class="rishi-pill">Rigveda Mandala 7</span>
+        <span class="rishi-pill">Guru of Rama</span>
+      </div>
+    </div>
+
+    <div class="rishi-card" style="border-top:3px solid var(--maroon);">
+      <div class="rishi-num">04 / Saptarishi</div>
+      <div class="rishi-name">Vishwamitra</div>
+      <p style="font-size:.87rem;color:var(--text-muted);margin:.5rem 0 .6rem;line-height:1.78;">The only Saptarishi not born a Brahmin. He began life as the Kshatriya king Kaushika and through extraordinary, centuries-long austerities attained the status of Brahmarshi, the highest class of sage. His story is the greatest example in Hindu tradition of spiritual achievement transcending birth. He composed the Gayatri Mantra, the most sacred and widely recited mantra in Hinduism, used by hundreds of millions in daily prayer.</p>
+      <p style="font-size:.87rem;color:var(--text-muted);margin:.5rem 0 .6rem;line-height:1.78;"><strong style="color:var(--brown);font-weight:normal;">Key descendants:</strong> Shakuntala (daughter from the apsara Menaka), whose son with King Dushyanta was the great emperor Bharata, after whom the subcontinent is named Bharat.</p>
+      <div class="rishi-attr">
+        <span class="rishi-pill">Gotra: Vishwamitra / Kaushika</span>
+        <span class="rishi-pill">Authored Gayatri Mantra</span>
+        <span class="rishi-pill">Kshatriya turned Brahmarshi</span>
+      </div>
+    </div>
+
+    <div class="rishi-card">
+      <div class="rishi-num">05 / Saptarishi</div>
+      <div class="rishi-name">Kashyapa</div>
+      <p style="font-size:.87rem;color:var(--text-muted);margin:.5rem 0 .6rem;line-height:1.78;">Perhaps the most consequential of all Saptarishis in genealogical scope. Kashyapa married thirteen daughters of Daksha Prajapati, and from these unions came essentially all living beings: the Devas (gods) from Aditi, the Asuras (demons) from Diti, the Nagas (serpents) from Kadru, the birds from Vinata and so on. He is often simply called the universal ancestor. The gotra associated with his name is one of the most common in India.</p>
+      <p style="font-size:.87rem;color:var(--text-muted);margin:.5rem 0 .6rem;line-height:1.78;"><strong style="color:var(--brown);font-weight:normal;">Key descendants:</strong> Indra and all Devas, Garuda (king of birds), Aruna (charioteer of the Sun), all Nagas, Vivasvan the Sun god (through whom both Rama's Solar dynasty and Krishna descend).</p>
+      <div class="rishi-attr">
+        <span class="rishi-pill">Gotra: Kashyapa</span>
+        <span class="rishi-pill">Govardhan Math</span>
+        <span class="rishi-pill">Vana, Aranya lineage</span>
+      </div>
+    </div>
+
+    <div class="rishi-card">
+      <div class="rishi-num">06 / Saptarishi</div>
+      <div class="rishi-name">Gautama</div>
+      <p style="font-size:.87rem;color:var(--text-muted);margin:.5rem 0 .6rem;line-height:1.78;">One of the great law-givers of ancient India and author of the Gautama Dharmasutra, the earliest known legal text in Indian history. His wife Ahalya was cursed to become stone after Indra deceived her, and was later restored to life by the touch of Rama's foot, one of the most celebrated and theologically significant episodes of the Ramayana. Gautama is particularly venerated in the Mithila (Bihar) region.</p>
+      <p style="font-size:.87rem;color:var(--text-muted);margin:.5rem 0 .6rem;line-height:1.78;"><strong style="color:var(--brown);font-weight:normal;">Key descendants:</strong> Nodha (son and Rigveda author), Shatananda (son, priest to King Janaka of Mithila, father of Sita).</p>
+      <div class="rishi-attr">
+        <span class="rishi-pill">Gotra: Gautama</span>
+        <span class="rishi-pill">Gautama Dharmasutra</span>
+        <span class="rishi-pill">Mithila tradition</span>
+      </div>
+    </div>
+
+    <div class="rishi-card">
+      <div class="rishi-num">07 / Saptarishi</div>
+      <div class="rishi-name">Bharadwaja</div>
+      <p style="font-size:.87rem;color:var(--text-muted);margin:.5rem 0 .6rem;line-height:1.78;">An extraordinarily versatile sage associated with medicine, military science and aeronautics. His ashram near Prayagraj (Allahabad) was one of the great centers of learning in ancient India, and it is here that Rama, Sita and Lakshmana rested at the beginning of their forest exile, receiving Bharadwaja's blessings. He authored significant portions of the Rigveda and Atharvaveda.</p>
+      <p style="font-size:.87rem;color:var(--text-muted);margin:.5rem 0 .6rem;line-height:1.78;"><strong style="color:var(--brown);font-weight:normal;">Key descendants:</strong> Drona (son, the Mahabharata's supreme Guru of archery and teacher of both Pandavas and Kauravas), Ashwatthama (grandson, immortal warrior-sage whose story spans the boundary between the Dvapara and Kali yugas).</p>
+      <div class="rishi-attr">
+        <span class="rishi-pill">Gotra: Bharadwaja</span>
+        <span class="rishi-pill">Father of Drona</span>
+        <span class="rishi-pill">Prayagraj ashram</span>
+      </div>
+    </div>
+
+    <div class="rishi-card" style="border-top:3px solid #4A6B3A;">
+      <div class="rishi-num">08 / The Eighth Maharishi</div>
+      <div class="rishi-name">Agastya</div>
+      <p style="font-size:.87rem;color:var(--text-muted);margin:.5rem 0 .6rem;line-height:1.78;">Born from a clay pot through the combined spiritual energy of Mitra and Varuna and therefore also called Kumbhaja (pot-born). Agastya is the sage who carried Vedic culture south of the Vindhya mountains, which he famously commanded to stay low forever. He is said to have drunk the entire ocean to help the gods reach the Asuras hiding beneath it. He is revered as the father of the Tamil language and grammar, founding the first Sangam (literary academy) of ancient Tamil culture.</p>
+      <p style="font-size:.87rem;color:var(--text-muted);margin:.5rem 0 .6rem;line-height:1.78;"><strong style="color:var(--brown);font-weight:normal;">Notable:</strong> His wife Lopamudra was herself a Vedic scholar who composed hymns in the Rigveda, making their union one of the most celebrated partnerships in ancient Indian intellectual history.</p>
+      <div class="rishi-attr">
+        <span class="rishi-pill">Gotra: Agastya</span>
+        <span class="rishi-pill">Father of Tamil tradition</span>
+        <span class="rishi-pill">South India</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 8: GOTRA SYSTEM -->
+<section class="section" id="gotra">
+  <div class="section-header">
+    <span class="section-num">08</span>
+    <h2 class="section-title">The Gotra System: Understanding Lineage</h2>
+  </div>
+
+  <p class="section-intro">The gotra system is one of the most sophisticated kinship-tracking mechanisms in any ancient civilization. It operates on a single principle: every Brahmin family belongs to the unbroken patrilineal descent of a specific Vedic sage. This lineage shapes marriage rules, ritual declarations and community identity across millennia.</p>
+
+  <h3>What is a Gotra?</h3>
+  <p>The Sanskrit word <em>gotra</em> has a literal meaning of "cowpen" or "cow enclosure" (go = cow, tra = shelter or enclosure), referring to the group of families that historically shared a common cattle enclosure in ancient pastoral society. Over time it evolved to mean "lineage" or "clan." The grammarian Panini, writing in the 5th century BCE, defined gotra in his Ashtadhyayi as "the progeny of a sage beginning with his son's son," meaning all male descendants through the unbroken paternal line.</p>
+
+  <h3>How the Gotra Rules Work</h3>
+  <p>The primary practical function of the gotra system is <strong>exogamy</strong>: marriage within the same gotra is strictly prohibited. Two people of the same gotra are considered siblings, regardless of how distant the actual relationship. This prohibition extends in most communities to the gotras of both maternal grandmothers as well. In North Indian communities the rule often extends to five gotras to prevent any possible inbreeding across several generations.</p>
+
+  <p>In every Hindu ritual, the participant formally declares identity through a <em>Sankalpa</em>, a statement of intention before the ceremony begins. This declaration always includes the gotra and pravara, connecting the individual's present action to an ancient lineage and making the act cosmically valid.</p>
+
+  <h3>Gotra and Pravara: The Distinction</h3>
+  <p>Beyond the gotra, every Brahmin family has a <em>Pravara</em>, which specifies two to five specific rishis within the gotra lineage considered the most distinguished ancestors. The Pravara functions as a finer identification within the broader gotra. While gotra prohibits marriage within the entire clan, Pravara prohibits marriage between those who share even one Pravara rishi, a rule that can apply across different gotras if they share an ancestor.</p>
+
+  <div class="gold-box">
+    <div class="gold-box-title">Gotra Assignments for All Four Mathas</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.75rem;margin-top:.5rem;">
+      <div style="background:var(--bg-card);border-radius:8px;padding:.85rem;border:1px solid var(--border);">
+        <div style="font-size:.7rem;font-family:sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--text-light);">Jyotirmath</div>
+        <div style="font-size:.95rem;color:var(--brown);margin:.25rem 0;">Bhrigu</div>
+        <div style="font-size:.78rem;color:var(--text-muted);">Giri, Parvat, Sagar</div>
+        <div style="font-size:.76rem;color:var(--text-light);margin-top:.3rem;">Pravara: Bhargava, Chyavana, Aptavana</div>
+      </div>
+      <div style="background:var(--bg-card);border-radius:8px;padding:.85rem;border:1px solid var(--border);">
+        <div style="font-size:.7rem;font-family:sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--text-light);">Shringeri Math</div>
+        <div style="font-size:.95rem;color:var(--brown);margin:.25rem 0;">Bhaveshwar</div>
+        <div style="font-size:.78rem;color:var(--text-muted);">Saraswati, Puri, Bharati</div>
+      </div>
+      <div style="background:var(--bg-card);border-radius:8px;padding:.85rem;border:1px solid var(--border);">
+        <div style="font-size:.7rem;font-family:sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--text-light);">Govardhan Math</div>
+        <div style="font-size:.95rem;color:var(--brown);margin:.25rem 0;">Kashyapa</div>
+        <div style="font-size:.78rem;color:var(--text-muted);">Vana, Aranya</div>
+      </div>
+      <div style="background:var(--bg-card);border-radius:8px;padding:.85rem;border:1px solid var(--border);">
+        <div style="font-size:.7rem;font-family:sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--text-light);">Dwarka Math</div>
+        <div style="font-size:.95rem;color:var(--brown);margin:.25rem 0;">Adhigata</div>
+        <div style="font-size:.78rem;color:var(--text-muted);">Tirtha, Ashram</div>
+      </div>
+    </div>
+  </div>
+
+  <h3>Atri and Atreya: A Common Source of Confusion</h3>
+  <p>Many Goswami families encounter confusion between the Atri and Atreya gotras. These are not the same. Atri is the original Saptarishi, one of the seven mind-born sons of Brahma. The Atri gotra traces directly to him. Atreya, on the other hand, is a sage who lived several generations after Atri and is a descendant of his line. The name Atreya literally means "of the Atri lineage." Atreya founded a renowned school of Ayurveda, and his disciples compiled the Charaka Samhita. In ritual Sankalpa declarations, "Atreyasha gotrasya" (of the Atreya gotra) and "Atri gotrasya" (of the Atri gotra) are distinct and separate declarations.</p>
+
+  <p>It is also important to note that the Dashanami tradition assigns institutional gotras to entire Math lineages. A Goswami family's pre-initiation ancestral gotra may differ from the institutional gotra assigned by their Math. When an ancestor took Sannyasa diksha and joined a Dashanami order, the Math's institutional gotra became the official gotra for ritual purposes. Many Goswami families preserve oral memory of an older pre-initiation gotra alongside the institutional one.</p>
+
+  <h3>The Sankalpa: Declaring Lineage in Ritual</h3>
+
+  <div class="sankalpa-box">
+    <div class="sankalpa-label">Example Sankalpa for Bhrigu Gotra (Jyotirmath orders: Giri, Parvat, Sagar)</div>
+    <div class="sankalpa-text">
+      "...Bhrigu gotrasya, Bhargava-Chyavana-Aptavana<br>
+      trayo risheyam pravarānvitasya,<br>
+      Atharvaveda adhyayinah,<br>
+      [name] sharmanah aham..."
+    </div>
+    <div class="sankalpa-translation">
+      Translation: "I, [name], of the Bhrigu gotra, bearing the Pravara of the three rishis Bhargava, Chyavana and Aptavana, a student of the Atharvaveda, on this auspicious occasion..."
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 9: CULTURE -->
+<section class="section" id="culture">
+  <div class="section-header">
+    <span class="section-num">09</span>
+    <h2 class="section-title">Culture, Customs and Living Heritage</h2>
+  </div>
+
+  <p class="section-intro">Beyond philosophy and lineage, the Goswami tradition has generated a rich texture of daily life, ritual practice, festival participation, pilgrimage culture and community identity that has survived centuries of political change and social transformation.</p>
+
+  <h3>Dress and Sacred Objects</h3>
+  <p>Sannyasi Goswamis traditionally wear <em>gerua</em> (ochre) robes, the universal color of renunciation in Hindu tradition. The color symbolizes fire, which burns away impurities. Some orders carry a <em>danda</em> (bamboo staff) and are called Dandi Sannyasins. Others, called Paramhansa Sannyasins, carry no staff and move more freely. Avadhutas, the most extreme renouncers, go without any clothing, considering even the body as belonging to nature.</p>
+
+  <p>Householder Goswami families typically wear Rudraksha beads, often in a mala of 108 beads. These must be worn only after proper initiation through the Rudra Sanskar (see below), distinguishing Goswami households from general practitioners.</p>
+
+  <h3>The Rudra Sanskar: A Tradition Unique to Goswamis</h3>
+  <p>One of the most distinctive ritual practices of the Goswami community is the Rudra Sanskar. Before wearing Rudraksha beads, a Goswami undergoes this ceremony, which involves Rudrabhishek (ritual bathing of a Shivalinga with sacred materials) and a formal initiation. This Rudra Sanskar is not among the standard sixteen life-cycle rites (Shodasha Samskaras) of Sanatan Dharma. It is exclusively a Goswami practice, marking the formal beginning of the individual's sacred relationship with the Rudraksha and with Lord Shiva.</p>
+
+  <h3>Core Ritual Practices</h3>
+  <div class="card-grid">
+    <div class="card">
+      <div class="card-label">Primary Puja</div>
+      <div class="card-name">Rudrabhishek</div>
+      <div class="card-body">Ritual bathing of a Shivalinga with Panchamrit (five sacred liquids: milk, curd, honey, ghee and sugar) along with sacred water, bilva leaves and the chanting of Sri Rudra, Chamakam and Namakam. This is the central puja of Goswami households.</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Scriptural Tradition</div>
+      <div class="card-name">Shiva Purana and Devibhagavat</div>
+      <div class="card-body">The Shiva Purana is the primary scriptural authority for Goswami priests. The Devibhagavat Purana, celebrating the Goddess, is central to Katha recitations performed by Goswami scholars. Both are recited at major household and community events.</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Most Important Festival</div>
+      <div class="card-name">Mahashivaratri</div>
+      <div class="card-body">The great night of Shiva is the most significant festival in the Goswami calendar. Observed with an all-night vigil, continuous chanting of the Panchakshara mantra (Om Namah Shivaya) and elaborate abhishek of the Shivalinga in a ceremony that typically runs through the night in four watches.</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Sacred Objects</div>
+      <div class="card-name">Trishul and Damru</div>
+      <div class="card-body">Many Goswami households maintain a trident (Trishul, Shiva's weapon symbolizing the three qualities of nature) and the small hourglass drum (Damru, whose sound represents creation). These are worshipped daily as markers of the household's Shaiva identity.</div>
+    </div>
+  </div>
+
+  <h3>The Kumbh Mela and Goswami Participation</h3>
+  <p>The Kumbh Mela, held at Prayagraj, Haridwar, Nashik and Ujjain in a twelve-year rotating cycle, is the largest religious gathering on earth. Goswami Sannyasins participate through the Akhada system. The Shahi Snan (royal bath), where monks march to the river in a grand procession to bathe at the most astrologically auspicious moment, is one of the most visually spectacular religious events in the world. The Dashanami Akhadas take precedence in the procession by centuries-old tradition, and their participation is considered spiritually essential to the sanctity of the event.</p>
+
+  <h3>Temple Guardianship</h3>
+  <p>Historically, Goswami families have served as hereditary priests and administrators (Mahants) of Shaiva temples across India. Many of the most ancient Shiva temples across North India and the Himalayas have been maintained by Goswami families for generations without interruption. This guardianship extends to extraordinarily remote locations: the priest of the Hinglaj Mata Shaktipeeth in Balochistan, Pakistan, one of the most isolated sacred sites in South Asia and one of the 51 Shakti Peethas, has been a Goswami for generations, maintaining the Hindu tradition under conditions of great difficulty.</p>
+
+  <h3>The Char Dham Connection</h3>
+  <p>The four Char Dham pilgrimage sites (Badrinath, Dwarka, Puri and Rameswaram) correspond directly to the four Shankaracharya Mathas. For a Giri, Parvat or Sagar Goswami, Badrinath is the most sacred destination, being the home of Jyotirmath. For Vana and Aranya Goswamis, Puri is the spiritual center. For Tirtha and Ashram Goswamis, Dwarka holds that role. The Char Dham pilgrimage circuit thus doubles as a circuit of one's own institutional heritage.</p>
+
+  <h3>Goswami Communities Across India</h3>
+  <p>Goswami communities are found across all regions of India. They are concentrated in Uttar Pradesh (Varanasi, Prayagraj, Mathura, Ayodhya), Uttarakhand (Haridwar, Rishikesh, Badrinath, Kedarnath), Rajasthan, Gujarat, Maharashtra, Bihar, Bengal and Assam. Varanasi deserves special mention as perhaps the single greatest concentration of Goswami Sannyasins and scholars in the world. The city's Ghat culture, its ancient monasteries and its tradition of continuous Sanskrit learning have been shaped in large part by the Goswami tradition over many centuries. Significant communities also exist in Nepal and Bangladesh.</p>
+</section>
+
+<!-- SECTION 10: NOTABLE FIGURES -->
+<section class="section" id="figures">
+  <div class="section-header">
+    <span class="section-num">10</span>
+    <h2 class="section-title">Notable Figures of the Goswami Tradition</h2>
+  </div>
+
+  <p class="section-intro">The Goswami tradition has produced scholars, saints, poets, devotional leaders and philosophers whose contributions have permanently shaped Indian civilization across more than twelve centuries.</p>
+
+  <div class="card-grid">
+    <div class="card card-accent">
+      <div class="card-label">Philosopher, 788 to 820 CE</div>
+      <div class="card-name">Adi Shankaracharya</div>
+      <div class="card-body">Founder and architect of the entire Dashanami Goswami institutional tradition. Author of commentaries on the Brahmasutras, Bhagavad Gita and ten Upanishads. Composer of the Vivekachudamani, Bhaja Govindam and hundreds of devotional hymns. Established the four Mathas and the ten-name system. Attained Samadhi at 32 in Kedarnath.</div>
+      <span class="card-tag tag-s">Philosophical founder</span>
+    </div>
+    <div class="card card-gold">
+      <div class="card-label">Poet Saint, 1532 to 1623 CE</div>
+      <div class="card-name">Goswami Tulsidas</div>
+      <div class="card-body">Author of the Ramcharitmanas, the Hindi retelling of the Ramayana that remains one of the most widely recited texts in North India. Also wrote the Hanuman Chalisa, Vinay Patrika, Kavitavali and Dohavali. His work made the Bhakti tradition accessible to ordinary people in their own spoken language. He spent most of his life in Varanasi.</div>
+      <span class="card-tag tag-g">Devotional literature</span>
+    </div>
+    <div class="card card-teal">
+      <div class="card-label">Six Goswamis of Vrindavan, 16th century</div>
+      <div class="card-name">Rupa, Sanatana and companions</div>
+      <div class="card-body">Rupa Goswami, Sanatana Goswami, Raghunatha Bhatta, Gopal Bhatta, Raghunatha Das and Jiva Goswami were the six principal disciples of Sri Chaitanya Mahaprabhu. They established the theological framework of Gaudiya Vaishnavism and built the foundational temples of Vrindavan. They represent a parallel Goswami tradition rooted in Vaishnavism.</div>
+      <span class="card-tag tag-t">Vrindavan tradition</span>
+    </div>
+    <div class="card card-maroon">
+      <div class="card-label">Saint, 19th century</div>
+      <div class="card-name">Bijoy Krishna Goswami</div>
+      <div class="card-body">A towering figure of the Bengal Renaissance who began in the Brahmo Samaj and later embraced intense personal devotionalism. He walked across Bihar, Uttar Pradesh, Assam and Punjab and later became a revered Vaishnava saint. His compositions and preaching bridged reformist and traditional devotional currents in 19th century Bengal.</div>
+      <span class="card-tag tag-m">Bengal Renaissance</span>
+    </div>
+    <div class="card">
+      <div class="card-label">Vedantin, 1863 to 1902 CE</div>
+      <div class="card-name">Swami Vivekananda</div>
+      <div class="card-body">Initiated into the Aranya order of the Dashanami tradition by Ramakrishna Paramahamsa. Brought Vedanta and Yoga to the Western world at the Parliament of the World's Religions, Chicago, in 1893. Founded the Ramakrishna Mission. Among the most globally recognized voices of the Goswami tradition in modern history.</div>
+      <span class="card-tag">Aranya order</span>
+    </div>
+    <div class="card">
+      <div class="card-label">Saint scholar, 1894 to 1994 CE</div>
+      <div class="card-name">Kanchi Paramacharya</div>
+      <div class="card-body">Swami Chandrashekharendra Saraswati of Kanchi Kamakoti Peetham. Head of the Shringeri-affiliated Peetham for 87 years. Revered across all communities for his encyclopedic knowledge, simple life and extraordinary compassion. One of the most beloved religious figures of 20th century India. Formally recognized as a Mahaperiyava (great elder) by millions.</div>
+      <span class="card-tag">Saraswati order</span>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 11: FAQ -->
+<section class="section" id="faq">
+  <div class="section-header">
+    <span class="section-num">11</span>
+    <h2 class="section-title">Common Questions About the Goswami Tradition</h2>
+  </div>
+
+  <p class="section-intro">These are questions that arise frequently within Goswami families, especially among younger generations who did not grow up with direct access to traditional knowledge.</p>
+
+  <h3>Are all Goswamis Brahmins?</h3>
+  <p>Yes. Goswamis are classified as Brahmins within the Hindu varna system. The original Goswamis were Sannyasi monks who, upon taking initiation, transcended all caste distinctions in a technical sense. However, because a Sannyasi is considered spiritually superior to all four varnas, they were accorded Brahmin status in all practical social and ritual matters. When monks entered domestic life at their Guru's instruction, their descendants inherited this Brahmin classification and it has been maintained ever since.</p>
+
+  <h3>Is there a difference between Dashanami Goswamis and Gaudiya Goswamis?</h3>
+  <p>Yes, these are two distinct traditions that share the same title. Dashanami Goswamis trace their origin to Adi Shankaracharya (8th century CE) and follow Advaita Vedanta with a primarily Shaiva orientation. Gaudiya Goswamis trace their origin to Sri Chaitanya Mahaprabhu (15th to 16th century CE) and follow Achintya Bhedabheda Vedanta with an entirely Vaishnava orientation centered on Krishna. The Six Goswamis of Vrindavan established by Chaitanya's disciples are the defining figures of the Gaudiya tradition. The title Goswami in both cases means "master of the senses" but the institutional lineages are completely separate.</p>
+
+  <h3>Why do different Goswami families sometimes have different gotras?</h3>
+  <p>Because the Dashanami system assigned institutional gotras to entire Math lineages, all members of a given order share the same institutional gotra. However, many householder Goswami families also preserve memory of a pre-initiation ancestral gotra from before their ancestor joined the Dashanami order. Over generations, particularly when transmitted orally without written record, these older gotra names can become phonetically distorted. It is not unusual for Goswami families to be uncertain whether the gotra they recite orally is their institutional gotra or a preserved memory of an older ancestral one. When in doubt, the institutional gotra assigned by the Math should be used in ritual Sankalpa.</p>
+
+  <h3>Who is the current head of Jyotirmath?</h3>
+  <p>The Shankaracharya of Jyotirmath is the highest religious authority for the Giri, Parvat and Sagar orders. The position has at times been contested between claimants in recent decades, and current information on the incumbent is best obtained directly from the Math. Jyotirmath is located in Joshimath town, Chamoli district, Uttarakhand.</p>
+
+  <h3>Can women be initiated into the Dashanami tradition?</h3>
+  <p>Traditionally the Dashanami Sannyasa was confined to men. However, a parallel tradition of women renunciants has always existed in Hinduism under different institutional frameworks. Some modern Mathas affiliated with the Dashanami tradition have begun to recognize the initiation of women. The Ramakrishna Mission, affiliated with the Aranya order, formally established a parallel institution for women renunciants.</p>
+
+  <h3>How does one trace a Goswami family's Math affiliation if it has been forgotten?</h3>
+  <p>Several pathways exist. The most direct is to visit the Math that corresponds to the family's surname: if the surname is Giri, Parvat or Sagar, the Math is Jyotirmath. If Saraswati, Puri or Bharati, it is Shringeri. If Vana or Aranya, it is Govardhan Math in Puri. If Tirtha or Ashram, it is Dwarka. Beyond the surname, an old family priest or kul-purohit may maintain a handwritten family register (Bahi) recording the gotra, pravara and lineage. Alternatively, the Sankalpa declaration made at any formal family puja will name the gotra aloud, and recording and transcribing this carefully can recover information that has been lost in the family's memory.</p>
+
+  <div class="pullquote" style="margin-top:2.5rem;">
+    <p>The Goswami tradition is not a relic of the past. It is a living presence across India, in the monasteries of the Himalayas and the temples of the Deccan, in the households of Gujarat and Bengal, in the Kumbh Mela processions and the quiet daily worship of millions of families. To know this tradition is to understand something essential about how India has sustained its spiritual continuity across more than three thousand years of history, through invasions, upheavals and transformations that would have extinguished a less deeply rooted civilization. The ten names, the four Mathas, the Saptarishi lineages and the philosophy of Advaita Vedanta are not separate subjects. They are one coherent vision of reality, passed from teacher to student across an unbroken chain of transmission that stretches from the present day back to the shores of Vedic antiquity.</p>
+    <cite>Om Namah Shivaya</cite>
+  </div>
+</section>
+
+</main>
+
+<!-- ABOUT SECTION -->
+<div style="background:#2C1D08; padding:2.5rem 1.5rem;">
+  <div style="max-width:1100px; margin:0 auto;">
+
+    <div style="font-family:'Helvetica Neue',Arial,sans-serif; font-size:.68rem; letter-spacing:.12em; text-transform:uppercase; color:#E8660A; margin-bottom:1.5rem; text-align:center;">About this website</div>
+
+    <div style="display:flex; justify-content:center; gap:2.5rem; flex-wrap:wrap; margin-bottom:1.5rem;">
+
+      <div style="display:flex; flex-direction:column; align-items:center; gap:.6rem; max-width:140px; text-align:center;">
+        <img src="photo-kavita.jpg" alt="Kavita Gagan Goswami"
+          style="width:110px; height:110px; border-radius:50%; object-fit:cover; object-position:center top; border:3px solid #E8660A;"
+          onerror="this.style.display='none'">
+        <div>
+          <div style="font-size:.98rem; color:#FDF5E8; line-height:1.4;">Kavita Gagan Goswami</div>
+          <div style="font-size:.76rem; color:#C8AE88; margin-top:.25rem;">Giri Goswami</div>
+          <div style="font-size:.74rem; color:#9C7560; margin-top:.15rem;">Government Employee</div>
+          <div style="font-size:.74rem; color:#9C7560;">Surat, Gujarat</div>
+        </div>
+      </div>
+
+      <div style="display:flex; flex-direction:column; align-items:center; gap:.6rem; max-width:140px; text-align:center;">
+        <img src="photo.jpg" alt="Gagan Goswami"
+          style="width:110px; height:110px; border-radius:50%; object-fit:cover; object-position:center top; border:3px solid #F4A048;"
+          onerror="this.style.display='none'">
+        <div>
+          <div style="font-size:.98rem; color:#FDF5E8; line-height:1.4;">Gagan Goswami</div>
+          <div style="font-size:.76rem; color:#C8AE88; margin-top:.25rem;">Giri Goswami</div>
+          <div style="font-size:.74rem; color:#9C7560; margin-top:.15rem;">Pharmaceutical Professional</div>
+          <div style="font-size:.74rem; color:#9C7560;">Surat, Gujarat</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="max-width:680px; margin:0 auto; text-align:center;">
+      <p style="font-size:.88rem; color:#9C7560; line-height:1.85; margin:0;">This website is a joint effort by Kavita and Gagan Goswami. The foundation of this work rests largely on Kavita's patient and thorough literary survey, through which the historical, scriptural and traditional sources were gathered, verified and organized. Gagan brought the material together into its present form. The project grew from a shared curiosity about Goswami heritage and a recognition that reliable, well-organized information on our tradition is rarely found in one place. It is offered as a community resource, not as a scholarly authority. Corrections, additions and feedback from knowledgeable members of the community are genuinely welcome.</p>
+      <a href="mailto:aquarious.gagan@gmail.com" style="display:inline-block; margin-top:1rem; font-size:.8rem; color:#F4A048; font-family:'Helvetica Neue',Arial,sans-serif; text-decoration:none; letter-spacing:.03em;">&#9993; aquarious.gagan@gmail.com</a>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <span class="om">&#2384;</span>
+  <p><strong style="color:#C8AE88;">Goswami Samaj: The Complete Heritage Chronicle</strong></p>
+  <p style="margin-top:.5rem;">Compiled from Vedic sources, Dashanami tradition records and Sanskrit scholarship.</p>
+  <p style="margin-top:.4rem;">This is a community resource. Corrections and additions from knowledgeable members are always welcome.</p>
+  <p style="margin-top:1rem;font-size:.76rem;">Giri &bull; Puri &bull; Bharati &bull; Vana &bull; Aranya &bull; Sagar &bull; Parvat &bull; Tirtha &bull; Ashram &bull; Saraswati</p>
+  <p style="margin-top:.6rem;font-size:.76rem;">Om Namah Shivaya &nbsp;&bull;&nbsp; Ayam Atma Brahma &nbsp;&bull;&nbsp; Aham Brahmasmi</p>
+</footer>
+
+<button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">&#8679;</button>
+
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement(
+    { pageLanguage: 'en', includedLanguages: 'hi,en,gu,mr,bn,pa,te,ta,kn,ml,or,as', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false },
+    'google_translate_element'
+  );
+}
+function toggleNav() {
+  document.getElementById('mobileNav').classList.toggle('open');
+}
+window.addEventListener('scroll', function() {
+  document.getElementById('scrollTop').classList.toggle('show', window.scrollY > 400);
+  const sections = document.querySelectorAll('section[id]');
+  const links = document.querySelectorAll('.nav-link');
+  let current = '';
+  sections.forEach(s => { if (window.scrollY >= s.offsetTop - 80) current = s.id; });
+  links.forEach(l => {
+    l.classList.remove('active');
+    if (l.getAttribute('href') === '#' + current) l.classList.add('active');
+  });
+});
+document.addEventListener('click', function(e) {
+  const nav = document.getElementById('mobileNav');
+  if (nav.classList.contains('open') && !nav.contains(e.target) && !e.target.classList.contains('hamburger')) nav.classList.remove('open');
+});
+</script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
